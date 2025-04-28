@@ -85,16 +85,52 @@ h2{
 main{
     min-height: 50vh ;
 }
+
 main li{
     font-size: 3vh;
     font-family: "EB Garamond", serif;
     color: #848484;
 }
+
+main img{
+    border-radius:5%;
+    object-fit: cover;
+    height: 25vh ;
+    width: 20vw ;
+    margin-top: 2vh;
+}
+
+.card{
+    background-color: #DCB4B4 !important;
+    border:0px !important;
+    margin: 5vh 1vw 5vh 1vw;
+}
+
+.card img{
+    border-radius:5%;
+    object-fit: cover;
+    height: 25vh !important;
+    width: 25vh !important;
+    margin-top: 2vh;
+}
+
+.card-title{
+    font-size: 6vh;
+    font-family: "EB Garamond", serif;
+    color: #BA7D7D !important;
+    padding: 1vh;
+}
+
+.card-text{
+    font-style: italic ;
+}
+
 #patisserie{
     width: 100%;
     border-radius:5%;
     object-fit: cover;
 }
+
 #carousel{
     width: 100%;
     z-index : 1;
