@@ -85,6 +85,11 @@ h2{
 main{
     min-height: 50vh ;
 }
+main li{
+    font-size: 3vh;
+    font-family: "EB Garamond", serif;
+    color: #848484;
+}
 #patisserie{
     width: 100%;
     border-radius:5%;
