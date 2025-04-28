@@ -2,6 +2,11 @@
     .row {
         flex-direction: column-reverse;
     }
+
+    #patisserie{
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
 }
 
 body{
@@ -25,6 +30,7 @@ h1{
     color: #BA7D7D !important;
     padding: 1vh !important;
     font-style: normal;
+    font-weight: normal !important;
 }
 
 h2{
@@ -33,6 +39,7 @@ h2{
     color: #BA7D7D !important;
     padding: 1vh !important;
     font-style: normal;
+    font-weight: normal !important;
 }
 
 .navbar{
@@ -78,7 +85,11 @@ h2{
 main{
     min-height: 50vh ;
 }
-
+#patisserie{
+    width: 100%;
+    border-radius:5%;
+    object-fit: cover;
+}
 #carousel{
     width: 100%;
     z-index : 1;
