@@ -1,0 +1,80 @@
+body{
+    background-color: #F0ECE5 !important;
+    height: 100%;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: #DCB4B4;
+    height: 15vh;
+}
+
+.navbar-toggler{
+    border: white solid 1px !important;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.nav-link{
+    font-size: 35px !important;
+    font-family: "EB Garamond", serif !important;
+    color: white !important;
+}
+
+.nav-link.active{
+    color: #BA7D7D !important;
+    text-decoration: underline;
+}
+
+.nav-link:hover{
+    color: #BA7D7D !important;
+}
+
+#logo {
+    border-radius: 50%;
+    height: 12vh;
+}
+
+#banniere{
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+main{
+    min-height: 50vh ;
+}
+
+footer{
+    height: 15vh;
+    background-color: #DCB4B4;
+}
+
+.p-2{
+    font-family: "EB Garamond", serif !important;
+    color: white !important;
+    font-size: 3vh !important;
+    padding: .5rem
+}
+
+#email {
+    font-size: 2vh;
+    height: 5vh;
+    width: 25vw;
+    border:none;
+}
+
+.btn{
+    font-family: "EB Garamond", serif !important;
+    color: white !important;
+    background-color : #BA7D7D !important;
+}
+
+.Reseaux{
+    height: 7vh ;
+}
