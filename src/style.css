@@ -1,3 +1,9 @@
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+}
+
 body{
     background-color: #F0ECE5 !important;
     height: 100%;
@@ -7,9 +13,32 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
+p {
+    font-size: 3vh;
+    font-family: "EB Garamond", serif;
+    color: #848484;
+}
+
+h1{
+    font-size: 6vh !important;
+    font-family: "EB Garamond", serif;
+    color: #BA7D7D !important;
+    padding: 1vh !important;
+    font-style: normal;
+}
+
+h2{
+    font-size: 4vh !important;
+    font-family: "EB Garamond", serif;
+    color: #BA7D7D !important;
+    padding: 1vh !important;
+    font-style: normal;
+}
+
 .navbar{
     background-color: #DCB4B4;
     height: 15vh;
+    z-index : 2;
 }
 
 .navbar-toggler{
@@ -50,8 +79,26 @@ main{
     min-height: 50vh ;
 }
 
+#carousel{
+    width: 100%;
+    z-index : 1;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.carousel-inner {
+    border-radius:5%;
+    overflow:hidden;
+  }
+
+.carousel-item img {
+    width: 100%;
+    height:40vh;
+    object-fit: cover;
+}
+
 footer{
-    height: 15vh;
+    min-height: 15vh;
     background-color: #DCB4B4;
 }
 
