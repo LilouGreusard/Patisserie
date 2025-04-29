@@ -103,7 +103,8 @@ main img{
 .card{
     background-color: #DCB4B4 !important;
     border:0px !important;
-    margin: 5vh 1vw 5vh 1vw;
+    margin : 5vh 1vw 5vh 1vw;
+    height: 90% !important;
 }
 
 .card img{
