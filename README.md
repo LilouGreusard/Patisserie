@@ -16,8 +16,8 @@ Ce site vitrine présente les créations raffinées de la pâtisserie **Douceurs
  ├── brunchs.html 
  ├── eclatdevanille.html 
  ├── macarons.html 
- ├── style.css → CSS personnalisé
  ├── src/  
+ │ ├── style.css → CSS personnalisé
  │ ├── img/ → Toutes les images (produits, logos, réseaux) 
  │ └── assets/ 
     │ ├── css/bootstrap.min.css 
